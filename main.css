@@ -1,0 +1,33 @@
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#hero {
+  height: 400px;
+  background-image: url("./splash.jpg");
+  background-size: cover;
+  background-position: bottom;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  
+}
+
+.hero-text {
+  color: white;
+  font-size: 56px;
+  font-weight: lighter;
+}
+
+.content-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 20px;
+  row-gap: 10px;
+  margin: 0 40px;
+}
+
+.about-content {
+  width: 400px;
+}
